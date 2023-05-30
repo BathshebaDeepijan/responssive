@@ -1,0 +1,72 @@
+@media screen and (max-width: 410px){
+    body{
+        background-color: red;
+    }
+    #medium, #large{
+        visibility: hidden;
+    }
+    h2{
+        font-size: 14px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .container{
+        background-color: aliceblue;
+        margin: 5px;
+    }
+    
+}
+@media screen and ( min-width: 410px) and (max-width : 768px){
+    body{
+        background-color: green ;
+    }
+    #small, #large{
+        visibility: hidden;
+    }
+    h2{
+        font-size: 36px;
+    }
+    p{
+        font-size: 26px;
+    }
+    .container{
+        background-color: aliceblue;
+        margin: 5px;
+    }
+    .container_tablette{
+        display: flex;
+        justify-content: space-around;
+    }
+    #deux_tiers{
+        width: 66%;
+    }
+    #un_tier{
+        width: 33%;
+    }
+    
+}
+@media screen and (min-width : 768px) {
+    body{
+        background-color: blue;
+        display: flex;
+        justify-content: space-between;
+    }
+    #small, #medium{
+        visibility: hidden;
+    }
+    h2{
+        font-size: 60px;
+    }
+    p{
+        font-size: 40px;
+    }
+    .container{
+        background-color: aliceblue;
+        margin: 5px;
+    }
+    .container_tablette{
+        display: flex;
+    }
+    
+}
